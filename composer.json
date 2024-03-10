@@ -1,0 +1,25 @@
+{
+    "name": "sunhill-de/plg_datetime",
+    "autoload": {
+        "psr-4": {
+            "Sunhill\\DateTime\\": "src/",
+            "Sunhill\\DateTime\\Tests": "tests/"
+        }
+    },
+    "authors": [
+     {
+         "name": "Klaus Dimde",
+         "email": "klaus@dimde.info"
+     }
+     ],
+     "minimum-stability" : "dev",
+     "require" : {
+                "laravel/framework" : "^10.0",
+                "sunhill/properties": "*"
+     },
+     "require-dev" : {
+                "phpunit/phpunit" : "^10.0",
+                "orchestra/testbench" : "^8.5"
+     }
+ }
+     
